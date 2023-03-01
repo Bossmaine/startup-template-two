@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Poppins:wght@500&display=swap');
+
+* {
+    font-family: 'DM Sans';
+}
+
+.navbar {
+    padding: 60px 182px !important;
+}
+
+.navbar-brand {
+    font-size: 24px !important;
+    font-weight: 700;
+    color: #1E0E62 !important;
+}
+
+.nav-link {
+    font-size: 18px !important;
+    font-weight: 500;
+    color: #1E0E62 !important;
+}
+
+.dis-link {
+    color: #15143966 !important;
+}
+
+.dis-link:hover {
+    color: #1E0E62 !important;
+}
+
+.purch-btn {
+    width: 118px;
+    Height: 40px;
+    border-radius: 100px;
+    color: #1E0E62;
+    font-size: 18px;
+    font-weight: 500;
+    background: transparent;
+    border: 2px solid #EBEAED;
+    padding: 0 15px;
+}
+
+.hero-heading {
+    font-size: 58px;
+    font-weight: 700;
+    color: #1E0E62;
+}
+
+.hero-para {
+    font-weight: 500;
+    font-size: 18px;
+    color: #15143966;
+}
+
+.hero-btn {
+    height: 60px;
+    width: 206px;
+    border-radius: 100px;
+    background: #482BE7;
+    color: #fff;
+    border: none;
+}
+
+.hero-image {
+    max-width: 50%;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 850px) {
+    .navbar {
+        padding: 60px 50px !important;
+    }
+
+    .hero-image {
+        max-width: 100%;
+        padding: 50px 13px 50px 10px;
+    }
+
+    br {
+        display: none;
+    }
+}
